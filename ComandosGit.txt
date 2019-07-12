@@ -7,6 +7,7 @@ git commit -m "version 1"                                        -- Añade comen
 git add .                                                                        -- Añadimos archivo modificado
  
 git commit -m "cambio realizado"
+git commit -am "comentario" (add + commit)
  
 git status                                                                       -- Estado del repositorio
  
