@@ -1,0 +1,33 @@
+git init                                                         -- Empezar repositorio en tu local
+ 
+git add nombreArchivo                                            --  Arranca  al archivo
+ 
+git commit -m "version 1"                                        -- Añade comentarios a lo que vamos a subir
+ 
+git add .                                                                        -- Añadimos archivo modificado
+ 
+git commit -m "cambio realizado"
+ 
+git status                                                                       -- Estado del repositorio
+ 
+git show archivo                                                                        -- Cambios historicos
+ 
+history                                                                         -- muestra historial cmds
+ 
+checkout                                                                        -- Traer del repo a local
+ 
+git rm archivo                                                          -- quitar del add (queda sin trackear)
+ 
+git config --global user.name "Alberto GL"                                                     
+ 
+git config --global user.email "alber6155@gmail.com"   
+ 
+git log archivo                                                         -- Con  codigo de seguimiento
+
+
+-- Para comparar dos versiones (num de version de git show archivo)
+git diff 64118443e75d3fa0b0402474b29b44b494c891d6 59724553cb76fa701ffbf4aa792242fa6d0f5e6b
+
+-- Volver version anterior
+git reset 64118443e75d3fa0b0402474b29b44b494c891d6 --hard/--soft
+
