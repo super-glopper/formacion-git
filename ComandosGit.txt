@@ -31,3 +31,9 @@ git diff 64118443e75d3fa0b0402474b29b44b494c891d6 59724553cb76fa701ffbf4aa792242
 -- Volver version anterior
 git reset 64118443e75d3fa0b0402474b29b44b494c891d6 --hard/--soft
 
+git branch              -- ver en que rama estamos
+
+git checkout cabecera   -- cambiar de rama
+
+git merge cabecera (siempre merge desde master)     --fusionar dos ramas
+
