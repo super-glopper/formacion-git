@@ -50,3 +50,13 @@ git remote -v       --- para ver los urigenes http que tenemos
 git push origin master -- llevar cambios a github
 
 git pull origin master --allow-unralated-histories para fusionar comits de local con los de github
+
+Tags y versiones en Git y GitHub
+git log --all --graph --decorate --oneline = muestra el historias de repositorio peor decorando y comprimiendo todo
+alias NOMBRE_DEL_ALIAS = “AQUI VA TODO EL CODIGO DE GIT”
+git tag -a nombre-del-tag id-del-commit. = Crear un nuevo tag y asignarlo a un commit.
+git tag -d nombre-del-tag = Borrar un tag en el repositorio local.
+git tag o git show-refs --tags = Listar los tags de nuestro repositorio local.
+git push origin --tags = Publicar un tag en el repositorio remoto.
+git tag -d NOMBRE_DEL_TAG = Ellmina el tag de manera local
+git push origin :refs/tags/nombre-del-tag = Borrar un tag del repositorio remoto.
