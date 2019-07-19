@@ -38,3 +38,7 @@ git checkout cabecera   -- cambiar de rama
 
 git merge cabecera (siempre merge desde master)     --fusionar dos ramas
 
+CONFLICTOS!!
+Desde Visualcode podemos arreglarlo, luego hacemos commit para terminar de guardarlo
+>>>>>>HEAD (lo que tenemos en master)
+<<<<<<<<INCOMING CHANGE (el cambio que le estamos haciendo)
