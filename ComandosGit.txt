@@ -42,3 +42,11 @@ CONFLICTOS!!
 Desde Visualcode podemos arreglarlo, luego hacemos commit para terminar de guardarlo
 >>>>>>HEAD (lo que tenemos en master)
 <<<<<<<<INCOMING CHANGE (el cambio que le estamos haciendo)
+
+git remote add origin https://github.com/super-glopper/formacion-git.git     -- para traernos un nuevo origen de github
+
+git remote -v       --- para ver los urigenes http que tenemos
+
+git push origin master -- llevar cambios a github
+
+git pull origin master --allow-unralated-histories para fusionar comits de local con los de github
